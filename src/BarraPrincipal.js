@@ -10,6 +10,7 @@ function BarraPrincipal(props) {
     { url: '/Canchas', text: 'Canchas' },
     { url: '/NAF', text: 'NAF' },
     { url: '/Fotocopiadora', text: 'Fotocopiadora' },
+    { url: '/ConsultasReservas', text: 'Consultas-Reservas' },
   ];
   return (
     <div>

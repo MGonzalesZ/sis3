@@ -1,9 +1,10 @@
 // import Link from 'next/link';
 import { Link } from 'react-router-dom';
+import './header.css'
 
 function Header() {
   return (
-    <div>
+    <div className='mainNav'>
       <nav
         className="navbar navbar-expand-lg navbar-dark py-lg-4"
         style={{ backgroundColor: '#762d3d' }}

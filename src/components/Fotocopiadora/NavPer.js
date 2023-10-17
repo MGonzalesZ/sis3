@@ -1,3 +1,5 @@
+import MEspacio from "../UI/MEspacio";
+
 export function NavPer() {
   const scrollToSection = (event) => {
     event.preventDefault(); // Evita la redirección predeterminada
@@ -76,6 +78,7 @@ export function NavPer() {
           </ul>
         </div>
       </div>
+
     </nav>
   );
 }

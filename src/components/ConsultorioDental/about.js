@@ -19,8 +19,9 @@ function About() {
           <span className="site-heading-lower">Sobre nosotros</span>
         </h1>
       </header> */}
-
+      <MEspacio altura="80px" />
       <Header></Header>
+      <MEspacio altura="120px" />
       <section className="page-section about-heading">
         <div className="container">
           <img

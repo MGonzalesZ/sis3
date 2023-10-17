@@ -6,6 +6,7 @@ import Header from './header';
 import BarraPrincipal from '../../BarraPrincipal';
 import MTitulo from '../UI/MTitulo';
 import MFooter from '../UI/MFooter';
+import MEspacio from '../UI/MEspacio';
 
 export default function ClinicaDental() {
   return (
@@ -17,8 +18,9 @@ export default function ClinicaDental() {
           <span className="site-heading-lower">Clínica Odontológica</span>
         </h1>
       </header> */}
-
+      <MEspacio altura="10px" />
       <Header></Header>
+      <MEspacio altura="100px" />
       <section className="page-section clearfix">
         <div className="container">
           <div className="intro">

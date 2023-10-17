@@ -160,3 +160,9 @@
     margin-bottom: 10px;
   }
 }
+
+.MTitulo{
+  position: fixed;
+  width:100%;
+  z-index: 100;
+}

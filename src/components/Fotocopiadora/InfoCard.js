@@ -1,3 +1,5 @@
+import './index.css'
+
 export function InfoCard({ titulo, descripcion, icond }) {
   return (
     <div className="card" style={{ justifyContent: 'space-between' }}>

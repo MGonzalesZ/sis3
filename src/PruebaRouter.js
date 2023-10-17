@@ -18,6 +18,7 @@ import DepZVolley from './components/Canchas/DepZVolley';
 import DepZBasquet from './components/Canchas/DepZBasquet';
 import PaginaHorarios from './components/Horarios/PaginaHorarios';
 import BarraPrincipal from './BarraPrincipal';
+import Recursos from './components/ConsultasReservas/Recursos';
 
 export default function PruebaRouter() {
   return (
@@ -39,6 +40,7 @@ export default function PruebaRouter() {
           <Route path="/Fotocopiadora" element={<Fotocopiadora />} />
           <Route path="/NAF" element={<NAFpage />} />
           <Route path="/Horarios" element={<PaginaHorarios />} />
+          <Route path="/ConsultasReservas" element={<Recursos />} />
         </Routes>
       </Router>
     </>

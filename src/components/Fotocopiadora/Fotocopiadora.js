@@ -9,6 +9,7 @@ import { NavPer } from './NavPer';
 import MFooter from '../UI/MFooter';
 import { Parrafo } from './Parrafo';
 import BarraPrincipal from '../../BarraPrincipal';
+import MEspacio from '../UI/MEspacio';
 
 export default function Fotocopiadora() {
   const scrollToSection = (event) => {
@@ -26,7 +27,7 @@ export default function Fotocopiadora() {
     <div>
       <BarraPrincipal titulo="Fotocopiadora" />
       <NavPer />
-
+      <MEspacio altura="120px"/>
       <div id="inicio" className="section"></div>
       <div id="nosotros" className="section">
         <Carruselimg></Carruselimg>

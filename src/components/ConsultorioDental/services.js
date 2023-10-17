@@ -5,6 +5,7 @@ import Header from './header';
 import BarraPrincipal from '../../BarraPrincipal';
 import MTitulo from '../UI/MTitulo';
 import MEspacio from '../UI/MEspacio';
+import MFooter from '../UI/MFooter';
 
 function Servicios() {
   return (
@@ -12,8 +13,9 @@ function Servicios() {
       <BarraPrincipal titulo="Clinica Odontológica" />
       <MEspacio altura="10px" />
       <MTitulo titulo="Servicios" />
+      <MEspacio altura="80px" />
       <Header></Header>
-
+      <MEspacio altura="120px" />
       <section className="page-section">
         <div className="container">
           {/* Primer servicio */}
@@ -119,14 +121,7 @@ function Servicios() {
           </div>
         </div>
       </section>
-      <footer
-        className="footer text-faded text-center py-5"
-        style={{ backgroundColor: '#440d20' }}
-      >
-        <div className="container">
-          <p className="m-0 small">Copyright &copy; CupOfLu 2023</p>
-        </div>
-      </footer>
+      <MFooter/>
     </div>
   );
 }
