@@ -70,6 +70,12 @@ function Plataforma() {
         nombre="Ver mas"
         image="https://framerusercontent.com/images/k85UjfKkov66wjwAAkSMOYlxFQ.jpg?scale-down-to=512"
       />
+            <C2l
+        titulo="Reservas"
+        desc="Requisitos para realizar las reservas de sala de estudio"
+        nombre="Ver mas"
+        image="https://framerusercontent.com/images/kB3vRDR3ICFqHC9sQGS3mkcNsY.jpg?scale-down-to=512"
+      />
 
       <Titulo titulo="Contactos" fontstyle={fstyle2} />
       <Paraf desc="¿Necesitas ayuda o información? Contáctanos para asistencia personalizada en Univalle. Estamos aquí para ayudarte." />
