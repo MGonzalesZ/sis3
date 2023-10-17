@@ -37,9 +37,8 @@ function About() {
                   style={{ backgroundColor: '#f7eaef' }}
                 >
                   <h2 className="section-heading mb-4">
-                    <span className="section-heading-upper">Sobre la</span>
-                    <span className="section-heading-lower">
-                      clínica odontológica
+                    <span className="section-heading-upper">
+                      Sobre la clínica odontológica
                     </span>
                   </h2>
                   <p>
