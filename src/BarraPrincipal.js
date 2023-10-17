@@ -6,7 +6,7 @@ import MEspacio from './components/UI/MEspacio';
 function BarraPrincipal(props) {
   const links = [
     { url: '/PlataformaAtencion', text: 'Plataforma Atencion' },
-    { url: '/ConsultorioDental', text: 'Consultorio' },
+    { url: '/ConsultorioDental', text: 'Clínica Odontológica' },
     { url: '/Canchas', text: 'Canchas' },
     { url: '/NAF', text: 'NAF' },
     { url: '/Fotocopiadora', text: 'Fotocopiadora' },
@@ -17,7 +17,7 @@ function BarraPrincipal(props) {
         <Navbarra title="Sistema de informacion" links={links} />
         <MTitulo titulo={props.titulo} />
       </div>
-      <MEspacio altura="119px" />
+      <MEspacio altura="60px" />
     </div>
   );
 }

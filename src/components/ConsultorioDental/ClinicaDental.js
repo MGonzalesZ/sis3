@@ -32,7 +32,7 @@ export default function ClinicaDental() {
               style={{ backgroundColor: '#dfbcc6' }}
             >
               <h2 className="section-heading mb-4">
-                <span className="section-heading-upper">UNIVALLE</span>
+                {/* <span className="section-heading-upper">UNIVALLE</span> */}
                 <span className="section-heading-lower">
                   Clínica Odontológica
                 </span>
