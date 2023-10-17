@@ -1,0 +1,37 @@
+.deporte-item {
+  width: 100%;
+  /* margin: 1rem 0; */
+  background-color: #8b005d;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+  /* padding: 1rem 2rem; */
+  cursor: pointer;
+  border-radius: 21px;
+  justify-content: center;
+  text-align: center;
+}
+
+.canchas {
+  background-color: whitesmoke;
+}
+
+/* PaginaGrid.css */
+
+.pagina-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+  grid-gap: 20px; /* Espacio entre elementos */
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenido horizontalmente */
+}
+
+.elemento-grid {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+.elemento-en-segunda-celda {
+  grid-column: 2; /* Coloca el elemento en la segunda columna */
+  background-color: lightcoral;
+  color: white;
+}

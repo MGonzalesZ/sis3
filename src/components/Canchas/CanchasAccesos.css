@@ -1,0 +1,10 @@
+.deporte-item {
+  background-color: #8b005d;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+  cursor: pointer;
+  border-radius: 21px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

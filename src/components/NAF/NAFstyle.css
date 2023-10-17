@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+    background-color: whitesmoke;
+}
+
+.info {
+    flex: 1;
+    padding: 20px;
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+    align-items: center;
+    width: 100%; /* Hacer que el contenedor ocupe todo el ancho */
+}
+
+.full-height {
+    flex: 1;
+    padding: 20px; /* Aumenta el padding para hacer los botones cuadrados */
+    margin: 10px;
+    background-color: #762D3D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 200px; /* Establece un ancho fijo para los botones cuadrados */
+    height: 300px; /* Establece una altura fija para los botones cuadrados */
+    text-align: center; /* Centra el texto verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+
+.parrafo{
+    font-size: 160%;
+    margin-left: 150px;
+}
+
+.horario {
+    width: 80%; /* Ajusta el ancho de la tabla */
+    margin: 0 auto; /* Centra la tabla en la página */
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.horario th, .horario td {
+    padding: 15px; /* Aumenta el padding para aumentar la altura de cada fila */
+    text-align: center;
+    border: 1px solid white;
+}
+
+.horario th {
+    background-color: #333;
+    color: white;
+}
+
+.horario tbody tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+.horario tbody tr:hover {
+    background-color: #ddd;
+}
+
+.horaDiv{
+    background-color: whitesmoke;
+}
+
+.horaCont{
+    padding: 2%;
+}
+
+/* Estilos para dispositivos pequeños */
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info, .image {
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}

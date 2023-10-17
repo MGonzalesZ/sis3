@@ -1,0 +1,40 @@
+.InfoCards {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center; /* Centra el contenido verticalmente */
+    
+    /* Estilo para dispositivos móviles (ancho máximo de 767px) */
+    @media (max-width: 767px) {
+        flex-direction: column; /* Mostrar en una columna */
+    }
+
+    /* Estilo para escritorio (ancho mínimo de 768px) */
+    @media (min-width: 768px) {
+        flex-direction:column; /* Mostrar en una fila */
+        flex-wrap:wrap; /* Permitir que los elementos se envuelvan en múltiples filas */
+        justify-content: flex-start; /* Alineación al inicio para evitar espacios entre los elementos */
+
+        /* Ancho de cada elemento para que ocupen el 100% del ancho del contenedor */
+        > li {
+            flex: 0 0 calc(33.33% - 16px); /* Restar 16px para acomodar el espacio entre los elementos */
+        }
+    }
+}
+/* Oculta el scrollbar principal */
+.App::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  /* Estilo del track del scrollbar */
+  .App::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  /* Estilo del thumb (el "botón" del scrollbar) */
+  .App::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+  
+
+

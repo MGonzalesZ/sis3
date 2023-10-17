@@ -1,0 +1,11 @@
+.Div-Section {
+  background-color: #dfbcc6;
+  color: white;
+}
+.container-con-borde {
+  border: 2px solid #007bff; /* Cambia esto a tus preferencias de estilo */
+  padding: 20px; /* Añade espacio de relleno si es necesario */
+}
+.mi-tabla-con-bordes-redondeados {
+  border-radius: 10px; /* Cambia esto al valor de radio de borde deseado */
+}
